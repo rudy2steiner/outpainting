@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.ai-outpainting.com/sitemap.xml',
+    sitemap: 'https://www.outpainting.co/sitemap.xml',
   }
 }

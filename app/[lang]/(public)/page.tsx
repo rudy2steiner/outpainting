@@ -24,7 +24,7 @@ export async function generateMetadata({
 ): Promise<Metadata> {
   // 必须主动激活一下当前语言，否则t函数不生效
   await activateLocale(params.lang)
-  const title = t`Free Online Tool For AI Image Expanding `+`-${siteConfig.name}`
+  const title = t`Free Online Tool For AI Image Expanding `+` | ${siteConfig.name}`
   return {
     title,
     description:t`Explore AI Outpainting Image, A Free Online Tool For Expanding and Enhancing Images Effortlessly`,

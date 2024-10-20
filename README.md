@@ -1,7 +1,7 @@
 # 一套适用于各种AI图片工具站的代码模板
 
 ## 真实网站演示
-- https://www.ai-outpainting.com
+- https://www.outpainting.co
 ## 网站截图
 - 网站首页
 ![img1.png](./doc/img1.png)
@@ -16,7 +16,7 @@
 ![img4.png](./doc/img4.png)
 
 ## 项目介绍
-- 1.基于nextjs 14 和 tailwindcss3 开发的AI扩图网站，网站地址：https://www.ai-outpainting.com/
+- 1.基于nextjs 14 和 tailwindcss3 开发的AI扩图网站，网站地址：https://www.outpainting.co/
 - 2.网站需要配合后端AI模型使用。后端模型需要自行搭建。
   - 模型地址：https://huggingface.co/spaces/fffiloni/diffusers-image-outpaint
 - 3.国际化采用lingui实现，这个对比next-intl 的好处是不需要为每个文案生成一个key,它会通过命令提取文案生成多语言文件。之后基于多语言文件去做翻译
@@ -133,6 +133,8 @@ ALTER ROLE aioutpaint CREATEDB;
 > 本地执行时需要开启代理
 `npx prisma migrate dev --name '说明'`
 >
+> 
+> yarn dev > edeploy.log 2>&1
 
 
 ## next-auth表结构初始化
@@ -166,7 +168,7 @@ https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/verce
 
 ## 版权声明
 - 本项目采用MIT开源协议，请遵守协议内容
-- 如果愿意的话，请帮我的网站留一个链接:https://www.ai-outpainting.com/ 非常感谢！
+- 如果愿意的话，请帮我的网站留一个链接:https://www.outpainting.co/ 非常感谢！
 
 ## 最后
 - 如果项目对你有帮助，请给个star，非常感谢！

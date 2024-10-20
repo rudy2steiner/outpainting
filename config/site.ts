@@ -1,10 +1,10 @@
 export type SiteConfig = typeof siteConfig
 import { t } from '@lingui/macro'
 export const siteConfig = {
-  name: 'AI Outpainting Image',
+  name: 'Outpainting',
   slogan: 'Free Image Extender Online',
   showLogin: true,
-  r2BaseUrl: 'https://s3.ai-outpainting.com',
+  r2BaseUrl: 'https://s3.outpainting.co',
   icon: '/favicon.ico',
 }
 

@@ -125,7 +125,7 @@ const Footer = ({ params }: { params?: { lang: AVAILABLE_LOCALES } }) => (
             </li>
           </ul>
           <p className="mt-6 sm:mt-0">
-            © 2024 AI-Outpainting.com All rights reserved.
+            © 2024 outpainting.co All rights reserved.
           </p>
         </div>
       </div>

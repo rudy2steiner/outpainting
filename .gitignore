@@ -39,3 +39,7 @@ next-env.d.ts
 
 .idea
 yarn.lock
+*.log
+.env
+.env.production
+*.iml

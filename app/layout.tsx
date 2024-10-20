@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import './globals.css'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import MicrosoftClarity from '@/framework/components/MicrosoftClarity'
+import { Analytics } from "@vercel/analytics/react";
 
 
 export default async function AppLayout({ children }: { children: ReactNode }) {
@@ -27,6 +28,7 @@ export default async function AppLayout({ children }: { children: ReactNode }) {
         </>
       )
     }
+     <Analytics/>
     </body>
     </html>
   )

@@ -73,7 +73,7 @@ export default function Hero({params,}: {
             <div
               className="w-full h-auto aspect-[4/3] object-cover rounded-[2rem] rounded-tl-[2rem] rounded-br-[2rem]">
               <img
-                src="https://public-image.fafafa.ai/fa-image/2024/06/dc94c298dbb6498d38ed5a8fc3fb9293.jpeg"
+                src="https://pic.wela.tech/outpainting/street.png"
                 className="object-cover rounded-[2rem] rounded-tl-[2rem] rounded-br-[2rem]" />
               <div className="text-center mt-4">
                 {t`Before Outpainting`}
@@ -86,13 +86,12 @@ export default function Hero({params,}: {
           <div
             className="h-[100%] w-auto aspect-[4/3] object-cover rounded-[2rem] rounded-tl-[2rem] rounded-br-[2rem]">
             <img
-              src="https://public-image.fafafa.ai/fa-image/2024/06/28cf8159d8a7aeb370296993ec380797.png"
+              src="https://pic.wela.tech/outpainting/steet_painting.png"
               className="object-cover rounded-[2rem] rounded-tl-[2rem] rounded-br-[2rem]" />
             <div className="text-center mt-4">
-              {t`After Outpainting`}
+              {t`After Outpainting`}: <b>Left, Right</b> Direction
             </div>
           </div>
-
         </div>
       </div>
       <div

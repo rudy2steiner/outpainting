@@ -7,26 +7,38 @@ export default function Gallery() {
 
   const data: { name: string, images: string[] }[] = [
     {
+         name: 'Photos',
+         images: [
+           'https://pic.wela.tech/outpainting/pt_test.jpeg',
+           'https://pic.wela.tech/outpainting/pt_painting.png'
+         ],
+         direction: 'Up,Down'
+       },
+    {
       name: 'Arts',
       images: [
-        'https://public-image.fafafa.ai/fa-image/2024/06/dc94c298dbb6498d38ed5a8fc3fb9293.jpeg',
-        'https://public-image.fafafa.ai/fa-image/2024/06/28cf8159d8a7aeb370296993ec380797.png'
-      ]
+        'https://pic.wela.tech/outpainting/arts.jpeg',
+        'https://pic.wela.tech/outpainting/arts_painting.png'
+      ],
+      direction: 'Up,Down,Right,Left'
     },
-  /*  {
+    {
       name: 'Characters',
       images: [
-        'https://public-image.fafafa.ai/fa-image/2024/06/0f2cda07684b4eaa3cddde2845983502.jpg',
-        'https://public-image.fafafa.ai/fa-image/2024/06/995adacd2006539edbe3359c8b5b1581.png'
-      ]
+          'https://pic.wela.tech/outpainting/character.jpg',
+          'https://pic.wela.tech/outpainting/character_painting.png'
+      ],
+      direction: 'Up'
     },
     {
       name: 'Scenery',
       images: [
-        'https://public-image.fafafa.ai/fa-image/2024/06/1d0dd4e6b2f4eaddc368330f51064657.jpg',
-        'https://public-image.fafafa.ai/fa-image/2024/06/098c96d00543c747402132144e298732.png'
-      ]
-    }*/
+       'https://pic.wela.tech/outpainting/scenery.jpg',
+                'https://pic.wela.tech/outpainting/scenery_painting.png'
+      ],
+      direction: 'Up,Down'
+    }
+
   ]
 
 
