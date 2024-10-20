@@ -10,6 +10,7 @@ export type GalleryItemData = {
   images: string[],
   direction: string,
 }
+
 const GalleryItem = memo(({ data }: { data: GalleryItemData[] }) => {
 
   return (

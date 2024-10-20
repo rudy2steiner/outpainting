@@ -5,7 +5,7 @@ import {t} from '@lingui/macro'
 
 export default function Gallery() {
 
-  const data: { name: string, images: string[] }[] = [
+  const data: { name: string, images: string[], direction: string }[] = [
     {
          name: 'Photos',
          images: [
